@@ -1,10 +1,10 @@
-### Overview
+## Overview
 
 This repository contains the R script that is created to complete the tasks in the Course Project for ["Getting and Cleaning Data Module"](https://class.coursera.org/getdata-012).
 
 This module was pack of the Data Science Specialisations Track by Johns Hopskins University in Coursera.
 
-### Introduction
+## Introduction
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
@@ -16,11 +16,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The R script, run_analysis, will do the following:
  
-#Merges the training and the test sets to create one data set.
-#Extracts only the measurements on the mean and standard deviation for each measurement. 
-#Uses descriptive activity names to name the activities in the data set
-#Appropriately labels the data set with descriptive variable names. 
-#From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### 0. Preparation
 
